@@ -71,7 +71,7 @@ twitch-videoad.js application/javascript
         scope.StreamInfosByUrl = [];
         scope.MainUrlByUrl = [];
         scope.EncodingCacheTimeout = 60000;
-        scope.DefaultProxyType = 'TTV LOL';
+        scope.DefaultProxyType = null;
         scope.DefaultForcedQuality = null;
         scope.DefaultProxyQuality = '720p';
     }
